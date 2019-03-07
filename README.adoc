@@ -15,7 +15,7 @@ For NXP i.mx8mq SOC, e.g.,PICO-IMX8M:
 $: PATH=${PATH}:~/bin
 $: mkdir edm_yocto
 $: cd edm_yocto
-$: repo init -u https://github.com/TechNexion/edm-yocto-bsp.git -b rocko_4.9.y_GA -m imx-4.9.88-2.0.0_ga.xml
+$: repo init -u https://github.com/TechNexion/edm-yocto-bsp.git -b sumo_4.14.y_GA -m imx-4.14.78-1.0.0_ga.xml
 $: repo sync -j8
 
 Set up build environment on host PC:
