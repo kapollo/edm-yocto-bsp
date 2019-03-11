@@ -9,7 +9,7 @@
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
-  <remote fetch="/home/kapec/kernels/moje/meta/" name="tn-release" />
+  <remote fetch="file:///home/kapec/kernels/moje/meta/" name="tn-release" />
 
   <project remote="yocto" revision="64a257fa22126c4a40ff7e03424a404e360ebe1e" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="407c6cf408969445031a492e2d25e0e2749582ea" name="meta-freescale" path="sources/meta-freescale"/>
